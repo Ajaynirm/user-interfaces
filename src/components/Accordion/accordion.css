@@ -5,9 +5,12 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
+    gap:30px 10px;
 }
 .head{
-    text-align: center;
+  padding: 20px;
+  font-size: xx-large;
+  font-weight: bold;
 }
 .accordion{
    width: 500px;
@@ -33,6 +36,22 @@
     
     color: white;
 }
+.btn__change{
+  border: none;
+  background: none;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  background-color: rgb(185, 81, 24);
+  color: whitesmoke;
+  border-radius: 10px;
+}
+.btn__change:hover{
+  background-color: rgb(63, 44, 25);
+}
+.item:hover{
+  background-color: #575249;
+}
 @media screen and (max-width:900px) {
     .accordion{
       width: 450px;
@@ -42,5 +61,8 @@
 @media screen and (max-width:700px) {
   .accordion{
     width: 400px;
+  }
+  .btn__change{
+    
   }
 }

@@ -10,11 +10,16 @@ const Accordion = () => {
     console.log(selected);
     
   };
+  const ChangeFunction = () => {
+
+  }
   return (
     <>
     <div className="wrapper">
+    <div className="head">Accordion</div>
+    <button className="btn__change" onClick={"ChangeFunction"}>Multiple select</button>
       <div className="accordion">
-        <h1 className="head">Accordion</h1>
+
         {data && data.length > 0 ? (
           data.map((item, index) => (
             <div className="item" key={index}>    
