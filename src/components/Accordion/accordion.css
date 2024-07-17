@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 100vh;
+  height: 150vh;
   width: 100vw;
   gap: 30px 10px;
   
@@ -69,7 +69,7 @@
   }
   .accordion {
     height: 50px;
-    width: 300px;
+    width: 350px;
   }
   .item{
     margin-bottom: 1px;
