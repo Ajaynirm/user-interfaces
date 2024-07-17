@@ -1,68 +1,83 @@
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    gap:30px 10px;
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 30px 10px;
+  
 }
-.head{
+.head {
   padding: 20px;
   font-size: xx-large;
   font-weight: bold;
 }
-.accordion{
-   width: 500px;
-   
-   gap: 1rem;
-    
+.accordion {
+  width: 500px;
+  gap: 1rem;
 }
-.title{
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
+.title {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
 }
- .item {
-        background: #90794c;
-        margin-bottom: 10px;
-        padding: 10px 20px;
-        border-radius: 10px;
-    
+.item {
+  background:#E7D4B5 ;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+ 
 }
-.answer{
-    
-    color: white;
+.answer {
+  color: rgb(66, 63, 63);
 }
-.btn__change{
+.btn__change {
   border: none;
   background: none;
   cursor: pointer;
   height: 50px;
-  width: 100px;
-  background-color: rgb(185, 81, 24);
+  width: 200px;
+  background-color: #80AF81;
   color: whitesmoke;
   border-radius: 10px;
 }
-.btn__change:hover{
-  background-color: rgb(63, 44, 25);
+.btn__change:hover {
+  background-color: ;
 }
-.item:hover{
-  background-color: #575249;
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight:10px;
+  font-size: 10px;
+  font-style:normal;
 }
-@media screen and (max-width:900px) {
-    .accordion{
-      width: 450px;
-    }
-  }
 
-@media screen and (max-width:700px) {
-  .accordion{
-    width: 400px;
+@media screen and (max-width: 900px) {
+  .accordion {
+    width: 450px;
   }
-  .btn__change{
-    
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper{
+    display: flex;
+    height: 150vh;
+    gap: 30px;
   }
+  .accordion {
+    height: 50px;
+    width: 300px;
+  }
+  .item{
+    margin-bottom: 1px;
+    padding: 5px;
+    font-size: small;
+    font-weight: lighter;
+    border: 1px solid gray;
+  }
+  
+  
 }
