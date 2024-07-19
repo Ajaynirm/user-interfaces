@@ -1,13 +1,19 @@
 import { useState } from 'react'
 import './App.css'
 import Accordion from './components/Accordion/Accordion'
+import RandomColor from './components/Random_color/RandomColor'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
+    <div className='main__container'>
       <Accordion />
+      <RandomColor />
+    </div>
+      
     </>
   )
 }
